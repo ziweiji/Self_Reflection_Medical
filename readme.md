@@ -136,6 +136,9 @@ CUDA_VISIBLE_DEVICES=0 python generate.py \
 ```
 
 # Metrics
+## GPTScore
+Please refers to [GPTScore](https://github.com/jinlanfu/GPTScore)
+
 
 ## MedNLI
 ```
@@ -152,14 +155,6 @@ CUDA_VISIBLE_DEVICES=0 python compute_CTRL.py \
 --data_file generated_answers.jsonl \
 --out_file CTRLEval_results.csv 
 ```
-## F1 score
-The code refers to [DensePhrases](https://github.com/princeton-nlp/DensePhrases/blob/main/densephrases/utils/eval_utils.py#L27)
-
-
-## ROUGE
-We use HuggingFace [Datasets](https://github.com/huggingface/datasets) to calculate the ROUGE score.
-
-
 
 
 
